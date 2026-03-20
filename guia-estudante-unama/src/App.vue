@@ -1,7 +1,10 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <HelloWorld />
+  <PagPrincipal />
 </template>
+
+<script>
+import PagPrincipal from './views/PagPrincipal.vue'
+export default {
+  components: { PagPrincipal }
+}
+</script>
