@@ -1,9 +1,9 @@
 <script setup>
-import imgUnama from '/src/assets/transferir-removebg-preview 1.png';
+
 </script>
 <template>
   <header class="header">
-    <img src="/src/assets/transferir-removebg-preview 1.png">
+    <img src="/src/assets/transferir-removebg-preview 1.png"/>
   </header>
 </template>
 

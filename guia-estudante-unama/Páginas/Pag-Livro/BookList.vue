@@ -45,7 +45,7 @@ defineEmits(['view-more'])
 }
 
 .section-header h3 {
-  font-size: 18px;
+  font-size: 40px;
   font-weight: 500;
   margin: 0;
 }
@@ -57,9 +57,10 @@ defineEmits(['view-more'])
 }
 
 .livros-container {
-  display: grid;
+  display:flex;
+  justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 200px;
 }
 
 @media (max-width: 768px) {
