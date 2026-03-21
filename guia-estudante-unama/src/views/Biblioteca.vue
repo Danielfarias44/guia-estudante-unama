@@ -60,7 +60,7 @@ const handleViewMore = () => {
       @view-more="handleViewMore"
       
     />
-    <BookList id="teste"
+    <BookList
       title="Continue Lendo >"
       :books="continueLendo"
       @view-more="handleViewMore"
@@ -69,9 +69,7 @@ const handleViewMore = () => {
 </template>
 
 <style scoped>
-#teste{
-    font-size: 100px;
-}
+
 .Unama {
   max-width: 2000px;
   margin: 0 auto;

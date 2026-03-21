@@ -12,9 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  margin-bottom: 10px;
-  background-color: white ;
-  height: 200px;
+  background-color: #D9d9d9 ;
+  height: 200px;;
+  position: relative;
+  width: 100%;
+
 }
 
 .header h1 {

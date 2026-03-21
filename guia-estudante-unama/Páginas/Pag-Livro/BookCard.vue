@@ -36,7 +36,7 @@ defineProps({
   font-weight: 600;
   margin: 10px 0 5px;
   color: #000000;
-  display: auto;
+  
 }
 
 .livro-autor {
