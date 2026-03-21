@@ -20,8 +20,8 @@ defineProps({
 
 <style scoped>
 .livro-card {
-  padding: 15px;
-  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border: 1px solid #0fa15d00;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
@@ -32,14 +32,15 @@ defineProps({
 }
 
 .livro-titulo {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   margin: 10px 0 5px;
   color: #000000;
+  display: auto;
 }
 
 .livro-autor {
-  font-size: 14px;
+  font-size: 20px;
   color: #666;
   margin: 0 0 10px;
 }
@@ -48,8 +49,8 @@ defineProps({
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 100%;
+  height: 600px;
+  width: 400px;
   border-radius: 4px;
   margin-bottom: 10px;
 }

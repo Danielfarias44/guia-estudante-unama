@@ -40,7 +40,7 @@ const continueLendo = ref([
     img: metamorfoseImg
   },
   {
-    titulo: 'SCRUM ',
+    titulo: 'SCRUM A arte de fazer o dobro do trabalho na metade do tempo',
     autor: 'Jeff Sutherland e J.J. Sutherland',
     img: scrumImg
   },
@@ -54,13 +54,14 @@ const handleViewMore = () => {
 <template>
   <div class="Unama">
     <AppHeader />
-    <BookList
+    <BookList 
       title="Livros Disponíveis"
       :books="livrosDisponiveis"
       @view-more="handleViewMore"
+      
     />
-    <BookList 
-      title="Continue Lendo"
+    <BookList id="teste"
+      title="Continue Lendo >"
       :books="continueLendo"
       @view-more="handleViewMore"
     />
@@ -68,11 +69,11 @@ const handleViewMore = () => {
 </template>
 
 <style scoped>
-
-
+#teste{
+    font-size: 100px;
+}
 .Unama {
-  max-width: 3000px;
-  max-height: 2000px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
