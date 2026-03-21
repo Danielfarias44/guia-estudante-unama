@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNAMA - Laboratórios</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<aside class="sidebar">
+<div class="menu-icon" onclick="toggleMenu(this)">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</aside>
+
+<main class="main">
+
+<header class="header">
+<div class="logo">
+    <img src="image.png" alt="logo da unama">
+<div class="user">
+<div class="avatar">AN</div>
+<p><strong>BEM-VINDO,</strong><br>ANDRÉ NETO</p>
+</div>
+</header>
+
+<div class="title">
+Laboratórios disponíveis
+</div>
+
+<section class="labs">
+
+<div class="card">
+<div class="top">
+<span>💻</span>
+<span class="badge">Lab - 100</span>
+</div>
+<p>Disponível de 12:00 às 15:00 horas</p>
+<button onclick="reservar('Lab 100')">Reservar</button>
+</div>
+
+<div class="card">
+<div class="top">
+<span>💻</span>
+<span class="badge">Lab - 101</span>
+</div>
+<p>Disponível de 9:00 às 13:00 horas</p>
+<button onclick="reservar('Lab 101')">Reservar</button>
+</div>
+
+<div class="card">
+<div class="top">
+<span>💻</span>
+<span class="badge">Lab - 102</span>
+</div>
+<p>Disponível de 14:00 às 18:00 horas</p>
+<button onclick="reservar('Lab 102')">Reservar</button>
+</div>
+
+<div class="card">
+<div class="top">
+<span>💻</span>
+<span class="badge">Lab - 103</span>
+</div>
+<p>Disponível de 7:00 às 8:00 horas</p>
+<button onclick="reservar('Lab 103')">Reservar</button>
+</div>
+
+<div class="card">
+<div class="top">
+<span>💻</span>
+<span class="badge">Lab - 104</span>
+</div>
+<p>Disponível de 10:00 às 19:00 horas</p>
+<button onclick="reservar('Lab 104')">Reservar</button>
+</div>
+
+<div class="card">
+<div class="top">
+<span>💻</span>
+<span class="badge">Lab - 105</span>
+</div>
+<p>Disponível de 12:30 às 18:30 horas</p>
+<button onclick="reservar('Lab 105')">Reservar</button>
+</div>
+
+</section>
+
+<footer class="footer">
+⚠️ Regras de uso: proibido comer e beber dentro dos laboratórios, favor desligar os computadores após o uso.
+</footer>
+
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
