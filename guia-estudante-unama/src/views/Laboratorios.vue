@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import logoImg from '/src/assets/transferir-removebg-preview 1.png'; // Ajuste o caminho conforme sua pasta
+import logoImg from '/src/assets/transferir-removebg-preview 1.png';
 
 export default {
   name: 'Laboratorios',
@@ -71,10 +71,7 @@ export default {
 </script>
 
 <style scoped>
-/* Copie todo o CSS do index.html aqui, mas remova a regra * que afeta todos os elementos globalmente */
-/* Ajuste para usar apenas classes locais, sem afetar outros componentes */
 
-/* Exemplo: */
 * {
   margin: 0;
   padding: 0;
@@ -140,9 +137,10 @@ export default {
 }
 .header {
   background: #d9d9d9;
-  padding: 35px 0;
+  padding: 5x 0;
   text-align: center;
   position: relative;
+  justify-content: center;
 }
 .header h1 {
   font-size: 28px;
