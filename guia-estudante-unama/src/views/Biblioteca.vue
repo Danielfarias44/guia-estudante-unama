@@ -40,7 +40,7 @@ const continueLendo = ref([
     img: metamorfoseImg
   },
   {
-    titulo: 'SCRUM A arte de fazer o dobro do trabalho na metade do tempo',
+    titulo: 'SCRUM',
     autor: 'Jeff Sutherland e J.J. Sutherland',
     img: scrumImg
   },
