@@ -137,7 +137,7 @@ export default {
 }
 .header {
   background: #d9d9d9;
-  padding: 5x 0;
+  padding: 80px 0;
   text-align: center;
   position: relative;
   justify-content: center;
